@@ -165,3 +165,14 @@ td {
   border-radius: 10%;
 }
 
+@media (max-width: 95rem) {
+  body{
+    background-color: #B6B2AC;
+  }
+  .main-body{
+    flex-direction: column;
+  }
+  main{
+    margin-bottom: 5rem;
+  }
+}
