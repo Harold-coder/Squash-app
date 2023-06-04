@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Squash-app/static/css/main.0fed99e3.css",
+    "main.css": "/Squash-app/static/css/main.1b9bd90c.css",
     "main.js": "/Squash-app/static/js/main.948a1a19.js",
     "static/js/787.a1e972c1.chunk.js": "/Squash-app/static/js/787.a1e972c1.chunk.js",
     "static/media/gonzo.png": "/Squash-app/static/media/gonzo.ad281beef2aa34405c4e.png",
@@ -22,12 +22,12 @@
     "static/media/rutu.png": "/Squash-app/static/media/rutu.1a1f86aa19e941ea04ca.png",
     "static/media/zach.png": "/Squash-app/static/media/zach.75597c48a0bfc59c9dcb.png",
     "index.html": "/Squash-app/index.html",
-    "main.0fed99e3.css.map": "/Squash-app/static/css/main.0fed99e3.css.map",
+    "main.1b9bd90c.css.map": "/Squash-app/static/css/main.1b9bd90c.css.map",
     "main.948a1a19.js.map": "/Squash-app/static/js/main.948a1a19.js.map",
     "787.a1e972c1.chunk.js.map": "/Squash-app/static/js/787.a1e972c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fed99e3.css",
+    "static/css/main.1b9bd90c.css",
     "static/js/main.948a1a19.js"
   ]
 }
