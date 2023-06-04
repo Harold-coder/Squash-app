@@ -35,7 +35,7 @@ export default function Main(props) {
         )
     })
 
-    const [week, setWeek] = React.useState(1)
+    const [week, setWeek] = React.useState(2)
   
     const handleOpen = () => {
         let updated = (week + 1)%3
