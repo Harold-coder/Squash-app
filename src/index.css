@@ -1,13 +1,167 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #93C5ED; */
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5d/Low_Memorial_Library_Columbia_University_College_Walk_Court_Yard_05.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family:'Courier New', Courier, monospace;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav{
+  color: antiquewhite;
+  text-align: center;
+  text-shadow: 0.15rem 0.15rem black;
+  font-size: 2rem;
 }
+
+main {
+  width: 42rem;
+  height: 33rem;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 5px 15px 8px #e4e7fb;
+  box-shadow: 0px 5px 15px 8px #e4e7fb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-y: auto;
+}
+
+.main-header{
+  width: 42rem;
+  height: 7rem;
+  background-color: white;
+  -webkit-box-shadow: 0px 2px 8px 5px #e4e7fb;
+  box-shadow: 0px 2px 8px 5px #e4e7fb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+
+.h1-title{
+  padding: 1.3rem;
+  color: #141a39;
+}
+
+
+.main-leaderboard{
+  width: 95%;
+  border-collapse: collapse;
+  color: #141a39;
+  cursor: default;
+  margin: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #141a39;
+  cursor: default;
+  position:relative;
+}
+
+tr {
+  transition: all 0.2s ease-in-out;
+  border-radius: 0.2rem;
+}
+
+tr:not(:first-child):hover {
+  background-color: #fff;
+  transform: scale(1.1);
+  -webkit-box-shadow: 0px 5px 15px 8px #e4e7fb;
+  box-shadow: 0px 5px 15px 8px #e4e7fb;
+}
+
+tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+tr:nth-child(1) {
+  color: #fff;
+  background-color: #264c77;
+  position: sticky;
+  top: 2px;
+  z-index: 1;
+}
+
+td {
+  height: 5rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.4rem;
+  padding: 1rem 2rem;
+  position: relative;
+}
+
+.picture{
+  height: 4rem;
+  width: 4rem;
+  border: 1px solid #B6B2AC;
+  border-radius: 100%;
+}
+
+.number {
+  width: 1rem;
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.name {
+  text-align: left;
+  font-size: 1.7rem;
+}
+
+.points {
+  font-weight: bold;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.gold-medal {
+  height: 3rem;
+  margin-left: 2rem;
+}
+
+.points:first-child {
+  width: 10rem;
+}
+
+
+.main-body{
+  display: flex;
+  justify-content: space-around;
+  width: 105rem;
+  overflow-x: auto;
+}
+
+/* Dropdown menu */
+
+.dd-btn{
+  background-color: #fff;
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  color: #141a39;
+  border: 0;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+}
+.dd-btn:hover{
+  background-color: #141a39;
+  color: #fff;
+  border-radius: 10%;
+}
+
