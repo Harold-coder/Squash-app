@@ -144,7 +144,6 @@ td {
   display: flex;
   justify-content: space-around;
   width: 105rem;
-  overflow-x: auto;
 }
 
 /* Dropdown menu */
@@ -171,8 +170,69 @@ td {
   }
   .main-body{
     flex-direction: column;
+    width: auto;
   }
   main{
     margin-bottom: 5rem;
   }
+}
+
+@media (max-width: 45rem) {
+  nav{
+    color: antiquewhite;
+    text-align: center;
+    text-shadow: 0.10rem 0.10rem black;
+    font-size: 1.3rem;
+  }
+  main {
+    width: 30rem;
+    height: 20rem;
+    margin-bottom: 2rem;
+  }
+  
+  .main-header{
+    width: 30rem;
+    height: 5rem;
+    
+  }
+  
+  .h1-title{
+    padding: 0.2rem;
+  }
+  .main-leaderboard{
+    width: 100%;
+    margin: 3px;
+  }
+  td {
+    height: 3.5rem;
+    font-size: 1rem;
+    padding: 0.7rem 1.4rem;
+  }
+  .picture{
+    height: 2.8rem;
+    width: 2.8rem;
+  }
+  .number {
+    width: 0.7rem;
+    font-size: 1.5rem;
+  }
+  .name {
+    font-size: 1.2rem;
+  }
+  .points {
+    font-size: 0.9rem;
+  }
+  .gold-medal {
+    height: 2.1rem;
+    margin-left: 1.4rem;
+  }
+  
+  .points:first-child {
+    width: 7rem;
+  }
+  .dd-btn{
+    font-size: 2.1rem;
+    margin-top: 0.9rem;
+  }
+  
 }
