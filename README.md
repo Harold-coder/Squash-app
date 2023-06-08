@@ -1,3 +1,23 @@
+25
+20
+16
+13
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

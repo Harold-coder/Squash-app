@@ -3,6 +3,7 @@ import Player from "./Player"
 import data from "../data"
 import dataweek1 from "../dataweek1"
 import dataweek2 from "../dataweek2"
+import dataweek3 from "../dataweek3"
 
 export default function Main(props) {
     const player_general = data.map(item => {
@@ -35,10 +36,20 @@ export default function Main(props) {
         )
     })
 
-    const [week, setWeek] = React.useState(2)
+    const player_week3 = dataweek3.map(item => {
+        return (
+            <Player
+                key={item.id}
+                {...item}
+                
+            />
+        )
+    })
+
+    const [week, setWeek] = React.useState(3)
   
     const handleOpen = () => {
-        let updated = (week + 1)%3
+        let updated = (week + 1)%4
         if (updated === 0){
             updated = 1
         }
@@ -49,6 +60,8 @@ export default function Main(props) {
         description = "2k Run"
     } else if (week === 2){
         description = "10k Cycle"
+    } else if (week === 3){
+        description = "4 corners Ghost"
     }
 
     return (
@@ -66,6 +79,7 @@ export default function Main(props) {
                     {props.dropdown === "false" && player_general}
                     {props.dropdown === "true" && week === 1 && player_week1}
                     {props.dropdown === "true" && week === 2 && player_week2}
+                    {props.dropdown === "true" && week === 3 && player_week3}
                 </table>
             </div>
             </main>

@@ -70,11 +70,32 @@ const dataweek2 = [
         points: "16:42",
     },
     {
+        id: 12,
+        number: 12,
+        picture: "yuzpe.png",
+        name: "Yuzpe",
+        points: "16:46",
+    },
+    {
         id: 11,
         number: 11,
         picture: "jacob.png",
         name: "Jacob",
-        points: "22:26",
+        points: "19:00",
+    },
+    {
+        id: 12,
+        number: 12,
+        picture: "paarth.png",
+        name: "Paarth",
+        points: "🤕",
+    },
+    {
+        id: 13,
+        number: 13,
+        picture: "frankie.png",
+        name: "Frankie",
+        points: "⚙️",
     }
 ]
 
